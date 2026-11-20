@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Invitație Cavaler de Onoare</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+    font-family:Georgia,serif;
+
+    background:
+    linear-gradient(
+        135deg,
+        #08111f,
+        #13233f,
+        #08111f
+    );
+
+    color:white;
+}
+
+body::before{
+    content:"";
+    position:fixed;
+    left:0;
+    top:0;
+    width:50%;
+    height:100%;
+
+    background:url("pian-side.jpg");
+    background-size:cover;
+    background-position:center;
+
+    opacity:0.30;
+
+    z-index:-1;
+}
+
+body::after{
+    content:"";
+    position:fixed;
+    right:0;
+    top:0;
+    width:50%;
+    height:100%;
+
+    background:url("greek-side.jpg.jpeg");
+    background-size:cover;
+    background-position:center;
+
+    opacity:0.30;
+
+    z-index:-1;
+}
+
+.card{
+    max-width:900px;
+    width:100%;
+
+    background:rgba(10,15,30,.88);
+
+    border:1px solid rgba(212,175,55,.5);
+
+    border-radius:30px;
+
+    padding:50px;
+
+    box-shadow:0 0 40px rgba(212,175,55,.15);
+
+    text-align:center;
+}
+
+.date{
+    color:#d4af37;
+    letter-spacing:3px;
+    text-transform:uppercase;
+    font-size:14px;
+}
+
+h1{
+    margin-top:15px;
+    font-size:40px;
+    line-height:1.3;
+}
+
+.divider{
+    width:100px;
+    height:2px;
+    background:#d4af37;
+    margin:30px auto;
+}
+
+.hero{
+    margin:30px 0;
+}
+
+.hero img{
+    width:100%;
+    max-height:500px;
+    object-fit:cover;
+    object-position:center;
+    border-radius:20px;
+    border:2px solid rgba(212,175,55,.4);
+    box-shadow:0 15px 40px rgba(0,0,0,.4);
+}
+
+.content{
+    font-size:20px;
+    line-height:1.9;
+}
+
+.question{
+    margin-top:40px;
+    font-size:34px;
+    font-weight:bold;
+    color:#d4af37;
+}
+
+.quote{
+    margin-top:30px;
+    font-style:italic;
+    opacity:.9;
+    line-height:1.6;
+}
+
+.buttons{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+    margin-top:35px;
+}
+
+.btn{
+    padding:18px 35px;
+    border-radius:50px;
+    font-weight:bold;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.yes{
+    background:#d4af37;
+    color:#08101e;
+    border:2px solid #d4af37;
+}
+
+.yes:hover{
+    transform:translateY(-4px);
+    box-shadow:0 0 25px rgba(212,175,55,.6);
+}
+
+.no{
+    border:2px solid white;
+    color:white;
+}
+
+.no:hover{
+    background:white;
+    color:#08101e;
+}
+
+.name{
+    margin-top:40px;
+    font-size:32px;
+    color:#d4af37;
+}
+
+@media(max-width:768px){
+
+    .card{
+        padding:30px;
+    }
+
+    h1{
+        font-size:30px;
+    }
+
+    .content{
+        font-size:18px;
+    }
+
+    .question{
+        font-size:26px;
+    }
+
+    .hero img{
+        max-height:350px;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+<div class="date">
+30 Octombrie 2027 • Lacul Verde Resort-Ploiesti
+</div>
+
+<h1>
+🎹 Unele prietenii merită un loc de onoare în cele mai importante momente ale vieții 🎹
+<br>
+
+<br>
+💙BOGDAN & ANCA💙
+</h1>
+
+<div class="divider"></div>
+
+<div class="hero">
+    <img src="file:///C:/Users/bogdan.samoila/Downloads/pian-bogdan-anca.jpeg.jpeg">
+</div>
+
+<div class="content">
+
+Sunt oameni care apar în viața noastră și care, în timp, ajung să ocupe un loc special.
+
+<br><br>
+
+Prieteni pe care îi apreciezi, în care ai încredere și pe care te bucuri să îi ai aproape în cele mai importante momente.
+
+<br><br>
+
+Pentru mine, tu ești unul dintre acești oameni.
+
+<br><br>
+
+Ești unul dintre prietenii la care țin și pe care mi-aș dori să îi am alături atunci când voi începe un nou capitol al vieții mele.
+
+<br><br>
+
+Pe 30 octombrie 2027, la Lacul Verde Resort, va avea loc unul dintre cele mai importante momente din viața mea.
+
+<br><br>
+
+Iar înainte de toate există o întrebare pe care vreau să ți-o adresez...
+
+</div>
+
+<div class="question">
+
+⚜️Ai accepta să fii alături de mine,
+in calitate de CAVALER DE ONOARE,
+în una dintre cele mai importante zile din viața mea?⚔️
+
+</div>
+
+<div class="guest-section">
+
+<label for="guestName">
+Scrie-ți numele:
+</label>
+
+<br><br>
+
+<input
+    type="text"
+    id="guestName"
+    placeholder="Numele tău"
+>
+
+</div>
+
+<div class="quote">
+
+„Nu aleg un Cavaler de Onoare pentru o singură zi.
+Aleg un prieten care a fost important pentru mine în multe dintre zilele care au adus până aici.”
+
+</div>
+
+<div class="buttons">
+
+<a class="btn yes" href="#" onclick="trimiteRaspuns('DA'); return false;">
+⚜️ DA, CU MARE DRAG!
+</a>
+
+<a class="btn no" href="#" onclick="trimiteRaspuns('NU'); return false;">
+🤍 NU POT
+</a>
+
+</div>
+
+<div class="name">
+Bogdan Sămoilă
+</div>
+
+</div>
+
+<script>
+
+function trimiteRaspuns(raspuns){
+
+    const nume =
+      document.getElementById("guestName").value;
+
+    if(nume.trim()===""){
+        alert("Te rog să îți scrii numele.");
+        return;
+    }
+
+    const url =
+    "https://script.google.com/macros/s/AKfycbyo_LFompw7z20CjjcrjMxCJMPTbwCqUGnXSlrnyw6DZS70HYPZH9usdOkZDU46SU5OCQ/exec?nume="
+    + encodeURIComponent(nume)
+    + "&raspuns="
+    + encodeURIComponent(raspuns);
+
+    window.location.href = url;
+}
+
+</script>
+
+</body>
+</html>
